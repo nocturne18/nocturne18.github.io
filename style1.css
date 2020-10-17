@@ -1,0 +1,57 @@
+body {
+	font-family: DFKai-sb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #97CBFF;
+}
+
+.main-content {
+	text-align: center;
+	box-shadow: 0 0 10px #00000070;
+	width: 600px;
+}
+
+.top-section {
+	padding: 10px;
+	background-color: #191970;
+	color: white;
+	font-size: 20px;
+}
+
+.introduction {
+	text-align: left;
+
+
+}
+
+.top-section img {
+	width: 50%;
+	border-radius: 50%;
+}
+
+.middle-section{
+	position: relative;
+}
+
+.middle-section, .bottom-section{
+	background-color: white; 
+}
+
+
+
+
+.bottom-section {
+	padding: 20px;
+	display: 40px;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+
+.contact {
+	position: absolute;
+	display: flex;
+	width: 100%;
+	margin-left: 30%;
+}
