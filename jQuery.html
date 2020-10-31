@@ -6,8 +6,8 @@
 	<link rel="stylesheet" href="style1.css" />
 	<script
   src="./jquery-1.11.1.min.js"></script>
-
-	<script type="text/javascript">
+  <script src="https://kit.fontawesome.com/f0c568de5e.js" crossorigin="anonymous"></script>
+  	<script>
   		$(document).ready(function() {
   		$("button").click(function(){
   			$("#div1").fadeIn();
@@ -52,25 +52,28 @@
 
 		</div>
 		<div class="contact">
-				粉絲專頁：
-				<a href="https://www.facebook.com/FJCUkarate">
-				<img src="https://i.imgur.com/w0gpn3d.png" width="50" height="30" />
-				</a>
-				<a href="https://www.instagram.com/fjcu_karate">
-				<img src="https://i.imgur.com/pYUwnyv.png" width="50" height="30" />
-				</a>
+			粉絲專頁：
+			<div class="row">
+				<div class="col-xs-8">
+					<a href="https://www.facebook.com/FJCUkarate">
+						<i class="fab fa-facebook"></i>
+					</a>
+				
+					<a href="https://www.instagram.com/fjcu_karate">
+						<i class="fab fa-instagram-square"></i>
+					</a></div>
 			</div>
-		
+		</div>
 	</div>
 	<div class="container">
 		<button>更多照片</button>
-			<div id="div1">
+			<div id="div1" style="display: none;">
 				<img src="https://imgur.com/geVo9sv.jpg" alt="practice">
 			</div>
-			<div id="div2">
+			<div id="div2" style="display: none;">
 				<img src="https://imgur.com/BAgRtlE.jpg" alt="start">
 			</div>
-			<div id="div3">
+			<div id="div3" style="display: none;">
 				<img src="https://i.imgur.com/CiFuJeU.jpg" alt="attack">
 			</div>	
 	</div>
